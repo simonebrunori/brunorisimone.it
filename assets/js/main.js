@@ -624,11 +624,10 @@
 			
 		}
 
-
 		// Footer Gallery Lightbox
 		var hasFtPopup = $('a').hasClass('gallery-widget-lightbox');
 
-		if (hasFtPopup) {
+		if (hasPopup) {
 
 			$('.gallery-widget-lightbox').magnificPopup({
 				type:'image',
@@ -745,9 +744,9 @@
 			$('.kenburns').attr('width', w_width);
 			$('.kenburns').attr('height', w_height);
 			$('.kenburns').kenburns({
-				images: ['http://placehold.it/2440x1578',
-						'http://placehold.it/2440x1578/999/eee',
-						'http://placehold.it/2440x1578/ccc/111'
+				images: ['assets/images/hero/kb-slide-1.jpg',
+						'assets/images/hero/kb-slide-2.jpg',
+						'assets/images/hero/kb-slide-3.jpg'
 						],
 				frames_per_second: 30,
 				display_time: 5000,
