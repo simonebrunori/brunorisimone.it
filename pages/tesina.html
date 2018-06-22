@@ -17,7 +17,7 @@
   <!-- Fonts -->
   <link rel="stylesheet" href="../assets/fonts/et-lineicons/css/style.css">
   <link rel="stylesheet" href="../assets/fonts/linea-font/css/linea-font.css">
-  <link rel="stylesheet" href="../assets/fonts/fontawesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
   <!-- Slider -->
   <link rel="stylesheet" href="../assets/styles/vendor/slick.css">
   <!-- Lightbox -->
@@ -30,9 +30,24 @@
   <link rel="stylesheet" href="../assets/styles/main.css">
   <link rel="stylesheet" href="../assets/styles/responsive.css">
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/SyntaxHighlighter/3.0.83/scripts/shCore.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/SyntaxHighlighter/3.0.83/scripts/shBrushJScript.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SyntaxHighlighter/3.0.83/styles/shCore.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SyntaxHighlighter/3.0.83/styles/shThemeDefault.css">
+
   <!-- JS -->
   <script src="../assets/js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
+<style>
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+</style>
+
 
 <body id="page-top" data-spy="scroll" data-target=".navbar">
   <!-- Google Tag Manager -->
@@ -361,7 +376,8 @@
               <img class="img-responsive" src="../assets/images/angular2.png" alt="Angular">
               <h4>Angular</h4>
               <p>AngularJS è un framework web open-source principalmente sviluppato da Google e dalla comunità di sviluppatori
-                individuali...</p>
+                individuali...
+              </p>
               <a href="#Angular">Read more
                 <span class="linea-arrows-slim-right"></span>
               </a>
@@ -471,7 +487,7 @@
       <div class="col-md-12">
         <img class="img-responsive wow fadeIn" data-wow-duration="2s" src="../assets/images/works.png" alt="Funzionamento">
       </div>
-      
+
 
     </div>
     <!-- / .row -->
@@ -484,102 +500,496 @@
     <div class="row">
 
       <div class="ws-l"></div>
-      
+
       <header class="sec-heading">
         <h2>Angular</h2>
         <span class="subheading">Frontend</span>
       </header>
 
       <header class="col-md-offset-1 col-md-10 sec-heading-2 sec-heading-top-m ws-s">
-          <span class="subheading"><b>AngularJS</b> è un framework web open source sviluppato da Google e dalla comunità di sviluppatori individuali, nato nel <b>2009</b> per affrontare le difficoltà incontrate nello sviluppo di applicazioni <b>single-page</b>.<br><br>
-          Architettura <b>MVC</b> (Model View Controller), che separa la logica di presentazione dalla logica di business.<br><br>
-          Nel 2016 compare una nuova release del framework <b>completamente riscritta</b> rispetto a quella precedente, con il nome di <b>Angular</b>.<br><br>
-          AngularJS è scritto in <b>JavaScript</b>, mentre Angular in <b>TypeScript</b>.</span>
-        </header>
+        <span class="subheading">
+          <b>AngularJS</b> è un framework web open source sviluppato da Google e dalla comunità di sviluppatori individuali,
+          nato nel
+          <b>2009</b> per affrontare le difficoltà incontrate nello sviluppo di applicazioni
+          <b>single-page</b>.
+          <br>
+          <br> Architettura
+          <b>MVC</b> (Model View Controller), che separa la logica di presentazione dalla logica di business.
+          <br>
+          <br> Nel 2016 compare una nuova release del framework
+          <b>completamente riscritta</b> rispetto a quella precedente, con il nome di
+          <b>Angular</b>.
+          <br>
+          <br> AngularJS è scritto in
+          <b>JavaScript</b>, mentre Angular in
+          <b>TypeScript</b>.</span>
+      </header>
 
-    </div><!-- / .row -->
-  </section><!-- / .section -->
+    </div>
+    <!-- / .row -->
+  </section>
+  <!-- / .section -->
+
+
+  <!-- ========== TypeScript ========== -->
+
+  <section class="container ft-steps-numbers">
+    <div class="row">
+
+      <div class="ws-l"></div>
+
+      <header class="sec-heading">
+        <h2>Cos'è TypeScript?</h2>
+      </header>
+
+      <header class="col-md-offset-1 col-md-10 sec-heading-2 sec-heading-top-m ws-s">
+        <span class="subheading">
+          <b>TypeScript</b> è un linguaggio di programmazione
+          <b>libero e open-source</b> rilasciato da Microsoft nel 2012.
+          <br>
+          <br> Estende le funzionalità del JavaScript e quindi può ogni programma scritto con quest'ultimo è in grado di funzionare
+          con TypeScript.
+          <br>
+          <br> Nato dalla necessità di
+          <b>sicurezza e robustezza</b>.
+          <br>
+          <br>
+        </span>
+      </header>
+      <div class="row">
+        <!-- Step 1 -->
+        <div class="col-lg-4 col-md-6 mb-sm-100 ft-item wow fadeIn" data-wow-duration="1s">
+          <span class="ft-nbr">01</span>
+          <h4>Firma digitale</h4>
+          <p>Per garantire autenticazione, non ripudio e integrità.</p>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="col-lg-4 col-md-6 mb-sm-100 ft-item wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">
+          <span class="ft-nbr">02</span>
+          <h4>Classi</h4>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="col-lg-4 col-md-6 ft-item wow fadeIn" data-wow-duration="1s" data-wow-delay=".6s">
+          <span class="ft-nbr">03</span>
+          <h4>Interfaccie</h4>
+        </div>
+      </div>
+      <div class="row" style="margin-top: 100px;">
+        <!-- Step 4 -->
+        <div class="col-lg-4 col-md-6 mb-sm-100 ft-item wow fadeIn" data-wow-duration="1s">
+          <span class="ft-nbr">04</span>
+          <h4>Moduli</h4>
+          <p>File o porzioni di codice che contengono istruzioni scritte per essere utilizzate più volte nello stesso programma.</p>
+        </div>
+
+        <!-- Step 5 -->
+        <div class="col-lg-4 col-md-6 mb-sm-100 ft-item wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">
+          <span class="ft-nbr">05</span>
+          <h4>Tipi di dato</h4>
+          <p>Sono opzionai: si possono anche omettere.</p>
+        </div>
+
+        <!-- Step 6 -->
+        <div class="col-lg-4 col-md-6 ft-item wow fadeIn" data-wow-duration="1s" data-wow-delay=".6s">
+          <span class="ft-nbr">06</span>
+          <h4>Operatore "=>"</h4>
+          <p>Che permette di definire le cosiddette fat-arrow function.</p>
+        </div>
+      </div>
+
+    </div>
+    <!-- / .row -->
+  </section>
+  <!-- / .section -->
+
+  <!-- ========== Esempio TypeScript ========== -->
+
+  <section class="container">
+    <div class="row">
+
+      <div class="ws-l"></div>
+
+      <header class="sec-heading">
+        <h2>Esempio TypeScript</h2>
+        <span class="subheading">Struttura di un file TS</span>
+      </header>
+
+      <header class="col-md-offset-1 col-md-10 sec-heading-2 sec-heading-top-m ws-s" style="font-size: 18px;">
+        <pre class="brush: js;">
+              class Person {	//Classe persona
+                    /*Attributi della classe*/
+
+                    private name: string;
+                    private age: number;
+                    private salary: number;
+                
+                    /*Costruttore a cui vengono passati i parametri necessari 
+                    per la creazione dell’oggetto*/
+
+                    constructor(name: string, age: number, salary: number) {
+                        this.name = name;
+                        this.age = age;
+                        this.salary = salary;
+                    }
+                    
+                    /*Metodo della classe con tipo di ritorno string*/
+
+                    toString(): string {
+                        return this.name + " (" + this.age + ")" + "("+ this.salary +")";
+                    }
+                }
+                
+          </pre>
+
+      </header>
+
+
+
+    </div>
+    <!-- / .row -->
+  </section>
+  <!-- / .section -->
+
+   <!-- ========== Advantages Angular ========== -->
+
+   <section class="container ft-centered">
+      <div class="row section">
+  
+        <header class="sec-heading">
+          <h2>Quali sono i vantaggi di Angular?</h2>
+        </header>
+  
+        <!-- Item 1 -->
+        <div class="col-md-offset-1 col-md-3 col-sm-6 mb-sm-50 ft-item ft-basic wow fadeIn" data-wow-duration=".8s" data-wow-delay=".3s">
+            <i class="fas fa-code"></i>
+          <!-- <span class="et-layers"></span> -->
+          <h5>Direttive</h5>
+          <p>Direttive direttamente integrate nel codice HTML.</p>
+        </div>
+  
+        <!-- Item 2 -->
+        <div class="col-md-4 col-sm-6 mb-sm-50 ft-item ft-basic wow fadeIn" data-wow-duration=".5s" data-wow-delay=".1s">
+          <span class="et-browser"></span>
+          <h5>SPAs</h5>
+          <p>Ideale per lo sviluppo di applizioni Single Page.</p>
+        </div>
+  
+        <!-- Item 3 -->
+        <div class="col-md-3 col-sm-6 mb-sm-50 ft-item ft-basic wow fadeIn" data-wow-duration=".8s" data-wow-delay=".3s">
+          <span class="et-edit"></span>
+          <h5>CRUD</h5>
+          <p>Ideale per lo sviluppo di applicazioni CRUD.</p>
+        </div>
+  
+        <!-- Item 4-->
+        <div class="col-md-offset-1 col-md-3 col-sm-6 mb-sm-50 ft-item ft-basic wow fadeIn" data-wow-duration=".8s" data-wow-delay=".3s"
+          style="margin-top: 50px;">
+          <i class="fas fa-cogs"></i>
+          <!-- <span class="linea-basic-bolt tab-icon"></span> -->
+          <h5>Responsive</h5>
+          <p>Ideale per lo sviluppo di applicazioni mobile.</p>
+        </div>
+  
+        <!-- Item 5 -->
+        <div class="col-md-4 col-sm-6 mb-sm-50 ft-item ft-basic wow fadeIn" data-wow-duration=".5s" data-wow-delay=".1s" style="margin-top: 50px;">
+          <span class="et-documents"></span>
+          <h5>Documentazione</h5>
+          <p>Ben documentato.</p>
+        </div>
+  
+        <!-- Item 6 -->
+        <div class="col-md-3 col-sm-6 mb-sm-50 ft-item ft-basic wow fadeIn" data-wow-duration=".8s" data-wow-delay=".3s" style="margin-top: 50px;">
+          <span class="et-profile-male"></span>
+          <h5>Community</h5>
+          <p>Grande quantità di componenti sviluppati dalla community.
+          </p>
+        </div>
+  
+  
+      </div>
+
+
+      <div class="row text-center">
+
+          <!-- App Icon -->
+          <div class="ws-l"></div>
+    
+          <header class="col-md-offset-1 col-md-10 sec-heading sec-heading-top-m ws-s">
+            <h2>Come funziona?</h2>
+            <span class="subheading">Funzionamento di Angular
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+            </span>
+          </header>
+    
+          <div class="col-md-12">
+            <img class="img-responsive wow fadeIn center" data-wow-duration="2s" src="../assets/images/funzionamentoAngular.png" alt="Funzionamento" style="width: 800px;">
+          </div>
+    
+    
+        </div>
+
+      </section>
+
 
 
   <!-- ========== NodeJS ========== -->
 
   <section id="NodeJS" class="container">
+    <div class="row">
+
+      <div class="ws-l"></div>
+
+      <header class="sec-heading">
+        <h2>NodeJS</h2>
+        <span class="subheading">Backend</span>
+      </header>
+
+      <header class="col-md-offset-1 col-md-10 sec-heading-2 sec-heading-top-m ws-s">
+        <span class="subheading">
+          <b>NodeJS</b> è un framework
+          <b>event-driven</b> rilasciato nel
+          <b>2009</b> da Joyent.</b>.
+          <br>
+          <br> Dispone di molti
+          <b>moduli scritti in JavaScript</b>, ma gli sviluppatori possono scrivere nuovi moduli utilizzando lo stesso linguaggio.
+          <br>
+          <br> Il modello di networking non è quello dei processi concorrenti, ma
+          <b>I/O event-driven</b>, poichè il flusso del programma è determinato dal verificarsi di eventi esterni.
+          <br>
+          <br> Permette di scrivere codice JavaScript lato server.
+        </span>
+      </header>
+
+    </div>
+    <!-- / .row -->
+  </section>
+  <!-- / .section -->
+
+
+  <!-- ========== Architettura non-blocking ========== -->
+
+  <section class="container">
       <div class="row">
   
         <div class="ws-l"></div>
-        
+  
         <header class="sec-heading">
-          <h2>NodeJS</h2>
-          <span class="subheading">Backend</span>
+          <h2>Architettura non-blocking</h2>
+          <span class="subheading">Metodi sincroni e asincroni</span>
         </header>
   
-        <header class="col-md-offset-1 col-md-10 sec-heading-2 sec-heading-top-m ws-s">
-            <span class="subheading"><b>NodeJS</b> è un framework <b>event-driven</b> rilasciato nel <b>2009</b> da Joyent.</b>.<br><br>
-            Dispone di molti <b>moduli scritti in JavaScript</b>, ma gli sviluppatori possono scrivere nuovi moduli utilizzando lo stesso linguaggio.<br><br>
-            Il modello di networking non è quello dei processi concorrenti, ma <b>I/O event-driven</b>, poichè il flusso del programma è determinato dal verificarsi di eventi esterni.<br><br>
-            Permette di scrivere codice JavaScript lato server.
-          </span>
-          </header>
-  
-      </div><!-- / .row -->
-    </section><!-- / .section -->
+        <header class="col-md-offset-1 col-md-10 sec-heading-2 sec-heading-top-m ws-s" style="font-size: 18px;">
+          <pre class="brush: js;">
 
-    <!-- ========== ExpressJS ========== -->
+              //METODO BLOCCANTE (SINCRONO)
+
+              const fs = require(‘fs’);
+
+              //si blocca qui finchè il file non è stato letto
+              const data = fs.readFileSync(‘/file.md’)	
+
+
+
+              //METODO NON BLOCCANTE (ASINCRONO)
+
+
+              const fs = require(‘fs’);
+
+              fs.readFile(‘/file.md’, (err,data)=>{
+	              if(err) throw err;
+              });
+              
+                  
+            </pre>
+  
+        </header>
+  
+  
+  
+      </div>
+      <!-- / .row -->
+    </section>
+    <!-- / .section -->
+
+
+    <!-- ========== Advantages NodeJS ========== -->
+
+   <section class="container ft-centered">
+      <div class="row section">
+  
+        <header class="sec-heading">
+          <h2>Quali sono i vantaggi di NodeJS?</h2>
+        </header>
+  
+        <!-- Item 1 -->
+        <div class="col-md-offset-1 col-md-3 col-sm-6 mb-sm-50 ft-item ft-basic wow fadeIn" data-wow-duration=".8s" data-wow-delay=".3s">
+            <i class="et-recycle"></i>
+          <!-- <span class="et-layers"></span> -->
+          <h5>Single-Threaded</h5>
+          <p>Un solo thread in esecuzione, bug di concorrenza o deadlock insesistenti.</p>
+        </div>
+  
+        <!-- Item 2 -->
+        <div class="col-md-4 col-sm-6 mb-sm-50 ft-item ft-basic wow fadeIn" data-wow-duration=".5s" data-wow-delay=".1s">
+          <span class="et-wallet"></span>
+          <h5>Risparmio computazionale</h5>
+          <p>Un solo processo Node = un solo Core della CPU.</p>
+        </div>
+  
+        <!-- Item 3 -->
+        <div class="col-md-3 col-sm-6 mb-sm-50 ft-item ft-basic wow fadeIn" data-wow-duration=".8s" data-wow-delay=".3s">
+          <span class="et-hazardous"></span>
+          <h5>No overhead</h5>
+          <p>Può gestire 10000 connessioni senza causare overhead e senza problemi di concorrenza.</p>
+        </div>
+  
+        <!-- Item 4-->
+        <div class="col-md-offset-1 col-md-3 col-sm-6 mb-sm-50 ft-item ft-basic wow fadeIn" data-wow-duration=".8s" data-wow-delay=".3s"
+          style="margin-top: 50px;">
+          <span class="et-speedometer"></span>
+          <!-- <span class="linea-basic-bolt tab-icon"></span> -->
+          <h5>Prestazioni</h5>
+          <p>Molto performante essendo scritto in C.</p>
+        </div>
+  
+        <!-- Item 5 -->
+        <div class="col-md-4 col-sm-6 mb-sm-50 ft-item ft-basic wow fadeIn" data-wow-duration=".5s" data-wow-delay=".1s" style="margin-top: 50px;">
+          <span class="et-profile-male"></span>
+          <h5>Community</h5>
+          <p>Grande community.</p>
+        </div>
+  
+        <!-- Item 6 -->
+        <div class="col-md-3 col-sm-6 mb-sm-50 ft-item ft-basic wow fadeIn" data-wow-duration=".8s" data-wow-delay=".3s" style="margin-top: 50px;">
+          <span class="et-clock"></span>
+          <h5>Settaggio veloce</h5>
+          <p>Sono necessari meno di cinque minuti per il settaggio di un server NodeJS.
+          </p>
+        </div>
+  
+  
+      </div>
+
+
+      <div class="row text-center">
+
+          <!-- App Icon -->
+          <div class="ws-l"></div>
+    
+          <header class="col-md-offset-1 col-md-10 sec-heading sec-heading-top-m ws-s">
+            <h2>Come funziona?</h2>
+            <span class="subheading">Funzionamento di NodeJS
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+            </span>
+          </header>
+    
+          <div class="col-md-12">
+            <img class="img-responsive wow fadeIn center" data-wow-duration="2s" src="../assets/images/FinzionamentoNodeJS.png" alt="Funzionamento" style="width: 1200px;">
+          </div>
+    
+    
+        </div>
+
+      </section>
+
+
+
+
+  <!-- ========== ExpressJS ========== -->
 
   <section id="ExpressJS" class="container">
-      <div class="row">
-  
-        <div class="ws-l"></div>
-        
-        <header class="sec-heading">
-          <h2>ExpressJS</h2>
-          <span class="subheading">Middleware</span>
-        </header>
-  
-        <header class="col-md-offset-1 col-md-10 sec-heading-2 sec-heading-top-m ws-s">
-            <span class="subheading"><b>ExpressJS</b> è un framework di <b>routing e middleware</b> gratuito ed open-source rilasciato nel <b>2010</b>, che mette a disposizione un set di componenti per la creazione di app single-page, multi-page e ibride.</b>.<br><br>
-            Permette di semplificare lo sviluppo di applicazioni web per NodeJS.<br><br>
-            Offre dei tools per <b>semplificare la creazione di server HTTP</b>.<br><br>
-          </span>
-          </header>
-  
-      </div><!-- / .row -->
-    </section><!-- / .section -->
+    <div class="row">
+
+      <div class="ws-l"></div>
+
+      <header class="sec-heading">
+        <h2>ExpressJS</h2>
+        <span class="subheading">Middleware</span>
+      </header>
+
+      <header class="col-md-offset-1 col-md-10 sec-heading-2 sec-heading-top-m ws-s">
+        <span class="subheading">
+          <b>ExpressJS</b> è un framework di
+          <b>routing e middleware</b> gratuito ed open-source rilasciato nel
+          <b>2010</b>, che mette a disposizione un set di componenti per la creazione di app single-page, multi-page e ibride.</b>.
+          <br>
+          <br> Permette di semplificare lo sviluppo di applicazioni web per NodeJS.
+          <br>
+          <br> Offre dei tools per
+          <b>semplificare la creazione di server HTTP</b>.
+          <br>
+          <br>
+        </span>
+      </header>
+
+    </div>
+    <!-- / .row -->
+  </section>
+  <!-- / .section -->
 
 
 
 
-    <!-- ========== MongoDB ========== -->
+  <!-- ========== MongoDB ========== -->
 
   <section id="MongoDB" class="container">
-      <div class="row">
-  
-        <div class="ws-l"></div>
-        
-        <header class="sec-heading">
-          <h2>MongoDB</h2>
-          <span class="subheading">DBMS</span>
-        </header>
-  
-        <header class="col-md-offset-1 col-md-10 sec-heading-2 sec-heading-top-m ws-s">
-            <span class="subheading">
+    <div class="row">
 
-                <em>“MongoDB is a document database with the scalability and flexibility that you want with querying and indexing that you need”</em>
-                <br>
-                <b>- MongoDB -</b>
-                <br>
-                <br>
-              <b>MongoDB</b> è un document database open-source e leader nel settore dei database NoSQL.<br><br>
-            Scitto in C++, permette di creare database altamente <b>scalabili e molto performanti</b>.<br><br>
-            <b>Document-oriented</b>: è importante capire il significato dei concetti collection e document.<br><br>
-            Il <b>database</b> in sè è un <b>contenitore di collection</b>.<br><br>
-            Una <b>collection</b> è un <b>contenitore di document</b> ed è paragonabile al concetto di tabella dei database relazionali.<br><br>
-            Un <b>document</b>, è un <b>set di coppie chiave-valore con schema dinamico</b>. Si tratta di un documento JSON con schema dinamico (<b>BSON</b>), paragonabile alle tuple dei database relazionali.<br><br>
-          </span>
-          </header>
-  
-      </div><!-- / .row -->
-    </section><!-- / .section -->
+      <div class="ws-l"></div>
+
+      <header class="sec-heading">
+        <h2>MongoDB</h2>
+        <span class="subheading">DBMS</span>
+      </header>
+
+      <header class="col-md-offset-1 col-md-10 sec-heading-2 sec-heading-top-m ws-s">
+        <span class="subheading">
+
+          <em>“MongoDB is a document database with the scalability and flexibility that you want with querying and indexing that
+            you need”</em>
+          <br>
+          <b>- MongoDB -</b>
+          <br>
+          <br>
+          <b>MongoDB</b> è un document database open-source e leader nel settore dei database NoSQL.
+          <br>
+          <br> Scitto in C++, permette di creare database altamente
+          <b>scalabili e molto performanti</b>.
+          <br>
+          <br>
+          <b>Document-oriented</b>: è importante capire il significato dei concetti collection e document.
+          <br>
+          <br> Il
+          <b>database</b> in sè è un
+          <b>contenitore di collection</b>.
+          <br>
+          <br> Una
+          <b>collection</b> è un
+          <b>contenitore di document</b> ed è paragonabile al concetto di tabella dei database relazionali.
+          <br>
+          <br> Un
+          <b>document</b>, è un
+          <b>set di coppie chiave-valore con schema dinamico</b>. Si tratta di un documento JSON con schema dinamico (
+          <b>BSON</b>), paragonabile alle tuple dei database relazionali.
+          <br>
+          <br>
+        </span>
+      </header>
+
+    </div>
+    <!-- / .row -->
+  </section>
+  <!-- / .section -->
 
 
 
@@ -668,8 +1078,14 @@
   <script src="../assets/js/vendor/jquery.ajaxchimp.js"></script>
   <script src="assets/js/vendor/animDots.js"></script>
 
+
+
   <!-- Definity JS -->
   <script src="../assets/js/main.js"></script>
+
+  <script>
+    SyntaxHighlighter.all();
+  </script>
 </body>
 
 <!-- Mirrored from themes.89elements.com/definity-html/index-web-app-landing.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 17 Jun 2018 16:00:26 GMT -->
